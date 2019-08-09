@@ -1,4 +1,4 @@
-#! /bin/bash -xe
+#!/bin/bash -xe
 
 curl -o helm-v2.12.3-darwin-amd64.tar.gz https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-darwin-amd64.tar.gz
 tar xvf ./helm-v2.12.3-darwin-amd64.tar.gz
